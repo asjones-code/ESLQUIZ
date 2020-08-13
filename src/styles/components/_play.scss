@@ -1,0 +1,51 @@
+.questions{
+    background-color: seashell;
+    border-left: 5px solid blue;
+    width: 80%;
+    margin: $lg auto 0 auto;
+
+    .hint-container{
+        display: flex;
+        justify-content: space-between;
+     }
+
+     h5{
+         font-size: 1.2rem; 
+         margin-bottom: 1g;
+         line-height: 1.5;
+         text-align: center;
+     }
+
+     .options-container{
+         text-align: center;
+     }
+
+     .option{
+         background-color: blue;
+         border-radius: $button-radius;
+         color: white;
+         cursor: pointer;
+         margin: $md auto;
+         padding: normal;
+         transition: 0.3s linear all;
+         width: 30%;
+     }
+         
+     .option:hover{
+         background-color: darken(blue, 20%);
+     }
+     
+.button-container{
+    display:flex;
+    justify-content: flex-start;
+    margin: 0 auto $sm auto;
+    padding: $md;
+    width: 80%
+
+}
+
+.button-container button {
+    border:none;
+    
+}
+}
